@@ -1,0 +1,103 @@
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+body {
+  padding: 10px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  display: flex;
+  flex: 10;
+}
+
+body::before {
+  content: url("../images/backcover.svg");
+  position: fixed;
+  right: 300px;
+  top: 0;
+  transform: scale(1.1);
+  z-index: -1;
+  width: 500px;
+}
+.nav-items {
+  color: #30387E;
+  font-size: 20px;
+  flex: 80;
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav .button {
+  flex: 10;
+}
+
+button {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 5px 30px;
+
+  background: rgb(150,92,242);
+  background: linear-gradient(90deg, rgba(150,92,242,1) 25%, rgba(255,138,220,1) 75%);
+
+  border: none;
+  border-radius: 30px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  padding-top: 100px;
+}
+
+.left-section h1 {
+  font-size: 80px;
+  color: #3E4794;
+}
+
+.left-section h4 {
+  margin: 70px 0;
+  width: 50ch;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(78, 77, 77);
+}
+
+.learn-more-btn {
+  font-size: 25px !important;
+  font-weight: 600;
+}
+
+.backcover {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: -1;
+} 
+
+ .vector-img,.vector-dot {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.main {
+  position: relative;
+  width: 800px;
+} 
+.c :nth-child(3){
+  height: 90vh;
+}
